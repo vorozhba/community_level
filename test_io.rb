@@ -1,4 +1,4 @@
-class IO
+class TestIO
   def initialize
     @questions = [
       "Переживаете ли вы в ожидании важной деловой встречи?",
