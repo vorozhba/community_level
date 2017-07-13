@@ -1,5 +1,5 @@
-require_relative 'testio'
-require_relative 'resprinter'
+require_relative 'lib/testio'
+require_relative 'lib/resprinter'
 
 questions_file_name = "#{File.dirname(__FILE__)}/data/questions.txt"
 results_file_name = "#{File.dirname(__FILE__)}/data/results.txt"
