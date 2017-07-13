@@ -1,5 +1,5 @@
 require_relative 'test_io'
-require_relative 'resprinter'
+require_relative 'res_printer'
 
 name = ARGV[0]
 
