@@ -4,7 +4,7 @@ class TestIO
     if File.exist?(questions_file_name)
       @questions = File.readlines(questions_file_name, encoding: 'UTF-8')
     else
-      abort "[файл c вопросами не найден]"
+      raise "[файл c вопросами не найден]"
     end
     @points = 0
     @current_q = 0

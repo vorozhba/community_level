@@ -4,11 +4,7 @@ require_relative 'lib/res_printer'
 questions_file_name = "#{File.dirname(__FILE__)}/data/questions.txt"
 results_file_name = "#{File.dirname(__FILE__)}/data/results.txt"
 
-name = ARGV[0]
-
-if name == nil
-  name = "Человек"
-end
+name = ARGV[0] || "Человек"
 
 puts "Добрый день, #{name}! Предлагаем определить Ваш уровень коммуникабельности.\n" \
   "Для этого Вам нужно правдиво ответить на несколько вопросов.\n\n"
